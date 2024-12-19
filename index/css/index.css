@@ -213,18 +213,25 @@ p, h1, h2, h3, h4, h5, h6{
     margin: 700px auto;
     box-shadow: 0 0 20px rgba(255,255,255,0.4);
     border-radius: 20px;
+    background-image: url(../img/Group\ 51.png);
+    background-repeat: no-repeat;
+    background-size: 1066px 580px;
 }
 .reg_left {
     width: 533px;
     height: 580px;
-    background-color: rgba(54,41,77,0.4);
     border-radius: 20px 0 0 20px;
+    padding-top: 130px;
+}
+.img_reg_left{
+    width: 560px;
+    height: 450px;
+    border-radius: 20px;
 }
 .reg_right {
     width: 533px;
     height: 580px;
     border-radius: 0 20px 20px 0;
-    background-image: url(../img/Group\ 51.png);
 }
 .title_reg_right_reg {
     font-family: var(--second-family);
@@ -324,6 +331,96 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 
+
+
+
+.us {
+    position: absolute;
+    top: 1450px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.us_glav {
+    width: 1066px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.us_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 533px;
+    height: 500px;
+}
+.us_left_up {
+    border-radius: 30px;
+    width: 500px;
+    height: 100px;
+    border: 2px solid white;
+}
+.title_us_left_up {
+    font-family: var(--second-family);
+    font-weight: 200;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 25px;
+    letter-spacing: 7px;
+}
+.us_left_down {
+    width: 500px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding: 20px 20px;
+}
+.text_us_left_down {
+    font-family: var(--second-family);
+    font-weight: 200;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.flex_btn {
+}
+.dark-button {
+}
+.us_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 533px;
+    height: 500px;
+}
+.us_right_up {
+    border-radius: 30px;
+    width: 500px;
+    height: 100px;
+    border: 2px solid white;
+}
+.title_us_right_up {
+    font-family: var(--second-family);
+    font-weight: 200;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 25px;
+    letter-spacing: 7px;
+}
+.us_right_down {
+    width: 500px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding-left: 8px;
+    padding-top: 20px;
+}
+.vvv{
+}
 
 
 
@@ -552,8 +649,9 @@ border-radius: 50%;
     top: 0;
     left: -25px;
     right: 0px;
+    bottom: 0;
     width: 100vw;
-    height: 100vw;
+    height: 3000px;
     background: black;
     z-index: -1;
 }
