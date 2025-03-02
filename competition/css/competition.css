@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 70px;
+    font-family: var(--second-family);
+    font-weight: 500;
+    letter-spacing: 8px;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.line_otz{
+    width: 600px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: #868383;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 650px) {
+    .line_otz{
+        width: 290px;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: #222;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    transition: transform 0.2s ease; /* Add a transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.card .participants {
+    font-size: 12px;
+}
+
+.card .stars {
+    color: gold;
+    font-size: 14px;
+}
+
+.card .button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card .button:hover {
+    background-color: #777;
+}
+
+/* For screens smaller than 600px, reduce the card width */
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
